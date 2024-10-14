@@ -6,11 +6,11 @@ Commands and snippets to help Solana development.
 
 ## Commands
 
-Commands are accessed via the Command Palette (`Ctrl+Shift+P` on Windows and Linux or `Cmd+Shift+P` on macOS). You can type **solpg** to see all commands.
+Commands are accessed via the Command Palette (`Ctrl+Shift+P` on Windows and Linux or `Cmd+Shift+P` on macOS). You can type **solana-dev** to see all commands.
 
 > ⚠ Commands usually require VSCode to be in a program workspace to work properly. If you don't have a program, use one of the **Create** commands.
 
-![Commands](https://raw.githubusercontent.com/solana-playground/solana-playground/master/vscode/images/commands.gif)
+![Commands](https://raw.githubusercontent.com/nxpkg/solana-dev/master/vscode/images/commands.gif)
 
 > ️You can also create keybinds for any of the commands by opening the Command Palette and clicking the Gear(⚙️) icon next to the command that you want to add keybind for.
 
@@ -52,12 +52,12 @@ You can share your program with **Share** command.
 
 ## Snippets
 
-The extension also comes with program snippets from [Solana Playground](https://beta.solpg.io).
+The extension also comes with program snippets from [Solana Playground](https://beta.solana-dev.io).
 
 ### Anchor
 
-![Anchor Snippets](https://raw.githubusercontent.com/solana-playground/solana-playground/master/vscode/images/anchor-snippets.gif)
+![Anchor Snippets](https://raw.githubusercontent.com/nxpkg/solana-dev/master/vscode/images/anchor-snippets.gif)
 
 ### Seahorse
 
-![Seahorse Snippets](https://raw.githubusercontent.com/solana-playground/solana-playground/master/vscode/images/seahorse-snippets.gif)
+![Seahorse Snippets](https://raw.githubusercontent.com/nxpkg/solana-dev/master/vscode/images/seahorse-snippets.gif)

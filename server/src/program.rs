@@ -117,6 +117,6 @@ pub fn build(
 /// In order for the program binary to exist, the program must be built using the [`build`] function
 /// before this command is executed.
 pub async fn get_binary(program_name: &str) -> tokio::io::Result<Vec<u8>> {
-    let binary_path = Path::new(PROGRAMS_DIR).join(program_name).join("solpg.so");
+    let binary_path = Path::new(PROGRAMS_DIR).join(program_name).join("solana-dev.so");
     tokio::fs::read(binary_path).await
 }

@@ -229,10 +229,10 @@ const improveOutput = (output: string) => {
     .replace(/(\/home\/\w+)\//gm, (match, home) => match.replace(home, "~"))
 
     // Remove compiling output
-    .replace(/\s*Compiling\ssolpg.*/, "")
+    .replace(/\s*Compiling\ssolana-dev.*/, "")
 
-    // Replace `solpg` name with the current workspace name
-    .replaceAll("solpg", PgExplorer.currentWorkspaceName ?? "solpg")
+    // Replace `solana-dev` name with the current workspace name
+    .replaceAll("solana-dev", PgExplorer.currentWorkspaceName ?? "solana-dev")
 
     // Remove stack size error
     .replace(/^\s*Error:\sFunction.*\n/gm, "")

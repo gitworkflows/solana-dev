@@ -1,11 +1,11 @@
 [package]
 name = "solana-cli-config-wasm"
-authors = ["Acheron <acheroncrypto@gmail.com>"]
+authors = ["NxPKG <iconmamundentist@gmail.com>"]
 description = "Solana CLI config for WASM."
 version = "1.11.0"
-repository = "https://github.com/solana-playground/solana-playground"
+repository = "https://github.com/nxpkg/solana-dev"
 license = "Apache-2.0"
-homepage = "https://beta.solpg.io"
+homepage = "https://beta.solana-dev.io"
 edition = "2021"
 keywords = ["solana", "playground", "wasm"]
 

@@ -1,8 +1,8 @@
 {
-  "name": "solpg",
+  "name": "solana-dev",
   "description": "UI for Solana Playground",
   "version": "0.1.0",
-  "author": "@acheroncrypto",
+  "author": "@nxpkgcrypto",
   "license": "GPL-3.0",
   "private": true,
   "dependencies": {

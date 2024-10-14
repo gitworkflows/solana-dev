@@ -1,17 +1,17 @@
 {
-  "name": "solpg",
-  "displayName": "Solana Playground",
+  "name": "solana-dev",
+  "displayName": "Solana devtool",
   "description": "Commands and snippets to help Solana development in VS Code",
   "version": "0.0.10",
   "author": {
-    "name": "acheron",
-    "url": "https://github.com/acheroncrypto"
+    "name": "nxpkg",
+    "url": "https://github.com/nxpkg"
   },
   "license": "GPL-3.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/solana-playground/solana-playground"
+    "url": "https://github.com/nxpkg/solana-dev"
   },
   "publisher": "solana-playground",
   "categories": [
@@ -23,68 +23,68 @@
     "vscode": "^1.72.0"
   },
   "activationEvents": [
-    "onCommand:solpg.address",
-    "onCommand:solpg.airdrop",
-    "onCommand:solpg.balance",
-    "onCommand:solpg.build",
-    "onCommand:solpg.connection",
-    "onCommand:solpg.createAnchor",
-    "onCommand:solpg.createNative",
-    "onCommand:solpg.createSeahorse",
-    "onCommand:solpg.deploy",
-    "onCommand:solpg.share"
+    "onCommand:solana-dev.address",
+    "onCommand:solana-dev.airdrop",
+    "onCommand:solana-dev.balance",
+    "onCommand:solana-dev.build",
+    "onCommand:solana-dev.connection",
+    "onCommand:solana-dev.createAnchor",
+    "onCommand:solana-dev.createNative",
+    "onCommand:solana-dev.createSeahorse",
+    "onCommand:solana-dev.deploy",
+    "onCommand:solana-dev.share"
   ],
   "contributes": {
     "commands": [
       {
-        "command": "solpg.address",
+        "command": "solana-dev.address",
         "title": "Address",
-        "category": "solpg"
+        "category": "solana-dev"
       },
       {
-        "command": "solpg.airdrop",
+        "command": "solana-dev.airdrop",
         "title": "Airdrop",
-        "category": "solpg"
+        "category": "solana-dev"
       },
       {
-        "command": "solpg.balance",
+        "command": "solana-dev.balance",
         "title": "Balance",
-        "category": "solpg"
+        "category": "solana-dev"
       },
       {
-        "command": "solpg.build",
+        "command": "solana-dev.build",
         "title": "Build",
-        "category": "solpg"
+        "category": "solana-dev"
       },
       {
-        "command": "solpg.connection",
+        "command": "solana-dev.connection",
         "title": "Connection",
-        "category": "solpg"
+        "category": "solana-dev"
       },
       {
-        "command": "solpg.createAnchor",
+        "command": "solana-dev.createAnchor",
         "title": "Create Anchor Project",
-        "category": "solpg"
+        "category": "solana-dev"
       },
       {
-        "command": "solpg.createNative",
+        "command": "solana-dev.createNative",
         "title": "Create Solana(Native) Project",
-        "category": "solpg"
+        "category": "solana-dev"
       },
       {
-        "command": "solpg.createSeahorse",
+        "command": "solana-dev.createSeahorse",
         "title": "Create Seahorse Project",
-        "category": "solpg"
+        "category": "solana-dev"
       },
       {
-        "command": "solpg.deploy",
+        "command": "solana-dev.deploy",
         "title": "Deploy",
-        "category": "solpg"
+        "category": "solana-dev"
       },
       {
-        "command": "solpg.share",
+        "command": "solana-dev.share",
         "title": "Share",
-        "category": "solpg"
+        "category": "solana-dev"
       }
     ],
     "snippets": [

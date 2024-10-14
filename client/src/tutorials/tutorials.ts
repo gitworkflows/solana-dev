@@ -7,8 +7,8 @@ export const TUTORIALS = createTutorials(
     description: "Hello world program with Native Solana/Rust.",
     authors: [
       {
-        name: "acheron",
-        link: "https://twitter.com/acheroncrypto",
+        name: "nxpkg",
+        link: "https://twitter.com/nxpkgcrypto",
       },
     ],
     level: "Beginner",
@@ -21,8 +21,8 @@ export const TUTORIALS = createTutorials(
     description: "Hello world program with Anchor framework.",
     authors: [
       {
-        name: "acheron",
-        link: "https://twitter.com/acheroncrypto",
+        name: "nxpkg",
+        link: "https://twitter.com/nxpkgcrypto",
       },
     ],
     level: "Beginner",
@@ -35,8 +35,8 @@ export const TUTORIALS = createTutorials(
     description: "Hello world program with Seahorse framework in Python.",
     authors: [
       {
-        name: "acheron",
-        link: "https://twitter.com/acheroncrypto",
+        name: "nxpkg",
+        link: "https://twitter.com/nxpkgcrypto",
       },
     ],
     level: "Beginner",

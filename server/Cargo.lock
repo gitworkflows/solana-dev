@@ -1566,7 +1566,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "solpg-server"
+name = "solana-dev-server"
 version = "0.1.0"
 dependencies = [
  "anchor-syn",

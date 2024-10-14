@@ -27,7 +27,7 @@ pub const DUMP_TRANSACTION_MESSAGE: ArgConstant<'static> = ArgConstant {
     help: "Display the base64 encoded binary transaction message in sign-only mode",
 };
 
-pub fn blockhash_arg<'a>() -> Arg<'a> {
+pub fn blockhash_arg() -> Arg {
     Arg::new(BLOCKHASH_ARG.name)
         .long(BLOCKHASH_ARG.long)
         .takes_value(true)
@@ -36,7 +36,7 @@ pub fn blockhash_arg<'a>() -> Arg<'a> {
         .help(BLOCKHASH_ARG.help)
 }
 
-pub fn sign_only_arg<'a>() -> Arg<'a> {
+pub fn sign_only_arg() -> Arg {
     Arg::new(SIGN_ONLY_ARG.name)
         .long(SIGN_ONLY_ARG.long)
         .takes_value(false)
@@ -44,7 +44,7 @@ pub fn sign_only_arg<'a>() -> Arg<'a> {
         .help(SIGN_ONLY_ARG.help)
 }
 
-fn signer_arg<'a>() -> Arg<'a> {
+fn signer_arg() -> Arg {
     Arg::new(SIGNER_ARG.name)
         .long(SIGNER_ARG.long)
         .takes_value(true)
@@ -56,7 +56,7 @@ fn signer_arg<'a>() -> Arg<'a> {
         .help(SIGNER_ARG.help)
 }
 
-pub fn dump_transaction_message<'a>() -> Arg<'a> {
+pub fn dump_transaction_message() -> Arg {
     Arg::new(DUMP_TRANSACTION_MESSAGE.name)
         .long(DUMP_TRANSACTION_MESSAGE.long)
         .takes_value(false)
@@ -65,16 +65,16 @@ pub fn dump_transaction_message<'a>() -> Arg<'a> {
 }
 
 pub trait ArgsConfig {
-    fn blockhash_arg<'a>(&self, arg: Arg<'a>) -> Arg<'a> {
+    fn blockhash_arg(&self, arg: Arg) -> Arg {
         arg
     }
-    fn sign_only_arg<'a>(&self, arg: Arg<'a>) -> Arg<'a> {
+    fn sign_only_arg(&self, arg: Arg) -> Arg {
         arg
     }
-    fn signer_arg<'a>(&self, arg: Arg<'a>) -> Arg<'a> {
+    fn signer_arg(&self, arg: Arg) -> Arg {
         arg
     }
-    fn dump_transaction_message_arg<'a>(&self, arg: Arg<'a>) -> Arg<'a> {
+    fn dump_transaction_message_arg(&self, arg: Arg) -> Arg {
         arg
     }
 }
@@ -84,7 +84,7 @@ pub trait OfflineArgs {
     fn offline_args_config(self, config: &dyn ArgsConfig) -> Self;
 }
 
-impl OfflineArgs for Command<'_> {
+impl OfflineArgs for Command {
     fn offline_args_config(self, config: &dyn ArgsConfig) -> Self {
         self.arg(config.blockhash_arg(blockhash_arg()))
             .arg(config.sign_only_arg(sign_only_arg()))

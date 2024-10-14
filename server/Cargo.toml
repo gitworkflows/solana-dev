@@ -1,11 +1,11 @@
 [package]
-name = "solpg-server"
+name = "solana-dev-server"
 version = "0.1.0"
 edition = "2021"
-description = "Solana Playground server"
-authors = ["Acheron <acheroncrypto@gmail.com>"]
-repository = "https://github.com/solana-playground/solana-playground"
-homepage = "https://github.com/solana-playground/solana-playground"
+description = "solana dev server"
+authors = ["NxPKG <iconmamundentist@gmail.com>"]
+repository = "https://github.com/nxpkg/solana-dev"
+homepage = "https://github.com/nxpkg/solana-dev"
 license = "GPL-3.0"
 readme = "README.md"
 keywords = ["solana", "playground", "server", "build", "compile"]

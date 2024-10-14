@@ -411,7 +411,7 @@ export class PgExplorer {
       // It's important to set `_isTemporary` after the workspace is created,
       // otherwise there is a chance the creation fails, and the state ends up
       // being invalid.
-      // See https://github.com/solana-playground/solana-playground/issues/275
+      // See https://github.com/nxpkg/solana-dev/issues/275
       this._isTemporary = false;
 
       // Change state paths(temporary projects start with /src)

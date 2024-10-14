@@ -190,7 +190,7 @@ const editStderr = (stderr: string) => {
   }
 
   // Remove Compiling message
-  stderr = stderr.replace("Compiling solpg v0.1.0\n", "");
+  stderr = stderr.replace("Compiling solana-dev v0.1.0\n", "");
 
   // Remove whitespace before 'Finished'
   startIndex = stderr.indexOf("Finished release");

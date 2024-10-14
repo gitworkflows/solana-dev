@@ -49,7 +49,7 @@ export const convertFromPlayground = async (files: TupleFiles) => {
       PgCommon.joinPaths(PROGRAM_PATH, "Cargo.toml"),
       `[package]
 name = "${PgCommon.toKebabFromTitle(
-        PgExplorer.currentWorkspaceName ?? "solpg"
+        PgExplorer.currentWorkspaceName ?? "solana-dev"
       )}"
 version = "0.1.0"
 description = "Native Solana Program"

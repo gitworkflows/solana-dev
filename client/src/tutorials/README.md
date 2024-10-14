@@ -1,6 +1,6 @@
 # Tutorials
 
-Playground now supports [tutorials](https://beta.solpg.io/tutorials) natively with Markdown text or custom React components.
+Playground now supports [tutorials](https://beta.solana-dev.io/tutorials) natively with Markdown text or custom React components.
 
 ## How to add a tutorial
 
@@ -14,7 +14,7 @@ There are **3** steps for adding a tutorial:
 
 1. Fork the repository
 
-   Fork the playground repository on Github and [run locally](https://github.com/solana-playground/solana-playground/blob/master/README.md#run-locally).
+   Fork the playground repository on Github and [run locally](https://github.com/nxpkg/solana-dev/blob/master/README.md#run-locally).
 
 2. Create a tutorial component
 
@@ -30,8 +30,8 @@ There are **3** steps for adding a tutorial:
      description: "Simple template tutorial.",
      authors: [
        {
-         name: "acheron",
-         link: "https://twitter.com/acheroncrypto",
+         name: "nxpkg",
+         link: "https://twitter.com/nxpkgcrypto",
        },
      ],
      level: "Beginner",

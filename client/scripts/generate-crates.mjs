@@ -185,7 +185,7 @@ function getDependencies(name, version) {
 export async function getCrates() {
   if (hasLockFile) {
     const dependencies = lockFile
-      .find((crate) => crate.name === "solpg")
+      .find((crate) => crate.name === "solana-dev")
       .dependencies.reduce((acc, dep) => {
         acc[dep.name] =
           dep.version ??

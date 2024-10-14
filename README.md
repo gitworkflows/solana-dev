@@ -1,6 +1,6 @@
 # Solana Playground
 
-[SolPg](https://beta.solpg.io) allows you to quickly develop, deploy and test [Solana](https://docs.solana.com/introduction) programs(smart contracts) from browsers.
+[SolPg](https://beta.solana-dev.io) allows you to quickly develop, deploy and test [Solana](https://docs.solana.com/introduction) programs(smart contracts) from browsers.
 
 ## Supported crates
 
@@ -73,4 +73,4 @@ Anyone is welcome to contribute to **Solana Playground** no matter how big or sm
 
 ## License
 
-Public libraries(e.g. [solana-client-wasm](https://github.com/solana-playground/solana-playground/tree/master/wasm/solana-client), [solana-extra-wasm](https://github.com/solana-playground/solana-playground/tree/master/wasm/utils/solana-extra)) are licensed under [Apache-2.0](https://github.com/solana-playground/solana-playground/blob/master/LICENSE-APACHE) and the rest are licensed under [GPL-3.0](https://github.com/solana-playground/solana-playground/blob/master/LICENSE-GPL).
+Public libraries(e.g. [solana-client-wasm](https://github.com/nxpkg/solana-dev/tree/master/wasm/solana-client), [solana-extra-wasm](https://github.com/nxpkg/solana-dev/tree/master/wasm/utils/solana-extra)) are licensed under [Apache-2.0](https://github.com/nxpkg/solana-dev/blob/master/LICENSE-APACHE) and the rest are licensed under [GPL-3.0](https://github.com/nxpkg/solana-dev/blob/master/LICENSE-GPL).

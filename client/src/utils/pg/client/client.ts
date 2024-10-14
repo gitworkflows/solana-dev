@@ -231,7 +231,7 @@ export class PgClient {
       // Namespaces
       ["console", iframeConsole],
 
-      // https://github.com/solana-playground/solana-playground/issues/82
+      // https://github.com/nxpkg/solana-dev/issues/82
       ["Uint8Array", Uint8Array],
 
       // Functions

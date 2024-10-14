@@ -38,6 +38,6 @@ COPY programs programs
 RUN cargo-build-sbf --manifest-path programs/Cargo.toml
 
 # Start server
-COPY --from=build /build/target/release/solpg-server .
+COPY --from=build /build/target/release/solana-dev-server .
 EXPOSE 8080
-CMD ["./solpg-server"]
+CMD ["./solana-dev-server"]

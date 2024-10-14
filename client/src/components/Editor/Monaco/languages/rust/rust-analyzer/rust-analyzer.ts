@@ -68,7 +68,7 @@ export const initRustAnalyzer = async (): Promise<Disposable> => {
 
       // Load crate
       await state.setLocalCrateName(
-        PgCommon.toSnakeCase(PgExplorer.currentWorkspaceName ?? "solpg")
+        PgCommon.toSnakeCase(PgExplorer.currentWorkspaceName ?? "solana-dev")
       );
 
       // Load files

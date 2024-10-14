@@ -1,6 +1,6 @@
 ## Build packages
 
-See [recommended versions](https://github.com/solana-playground/solana-playground/#recommended-versions).
+See [recommended versions](https://github.com/nxpkg/solana-dev/#recommended-versions).
 
 Build script usage:
 

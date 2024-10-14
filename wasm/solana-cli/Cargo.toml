@@ -2,10 +2,10 @@
 name = "solana-cli-wasm"
 version = "1.11.0"
 description = "Solana CLI for Solana Playground with WASM."
-authors = ["Acheron <acheroncrypto@gmail.com>"]
-repository = "https://github.com/solana-playground/solana-playground"
+authors = ["NxPKG <iconmamundentist@gmail.com>"]
+repository = "https://github.com/nxpkg/solana-dev"
 license = "GPL-3.0"
-homepage = "https://beta.solpg.io"
+homepage = "https://beta.solana-dev.io"
 edition = "2021"
 keywords = ["solana", "cli", "wasm", "playground"]
 

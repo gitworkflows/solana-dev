@@ -8,34 +8,34 @@ export function activate(context: vscode.ExtensionContext) {
   PgStorage.state = context.globalState;
 
   context.subscriptions.push(
-    vscode.commands.registerCommand("solpg.address", () =>
+    vscode.commands.registerCommand("solana-dev.address", () =>
       processCmd(Command.Address)
     ),
-    vscode.commands.registerCommand("solpg.airdrop", () =>
+    vscode.commands.registerCommand("solana-dev.airdrop", () =>
       processCmd(Command.Airdrop)
     ),
-    vscode.commands.registerCommand("solpg.balance", () =>
+    vscode.commands.registerCommand("solana-dev.balance", () =>
       processCmd(Command.Balance)
     ),
-    vscode.commands.registerCommand("solpg.build", () =>
+    vscode.commands.registerCommand("solana-dev.build", () =>
       processCmd(Command.Build)
     ),
-    vscode.commands.registerCommand("solpg.connection", () =>
+    vscode.commands.registerCommand("solana-dev.connection", () =>
       processCmd(Command.Connection)
     ),
-    vscode.commands.registerCommand("solpg.createAnchor", () =>
+    vscode.commands.registerCommand("solana-dev.createAnchor", () =>
       processCmd(Command.CreateAnchor)
     ),
-    vscode.commands.registerCommand("solpg.createNative", () =>
+    vscode.commands.registerCommand("solana-dev.createNative", () =>
       processCmd(Command.CreateNative)
     ),
-    vscode.commands.registerCommand("solpg.createSeahorse", () =>
+    vscode.commands.registerCommand("solana-dev.createSeahorse", () =>
       processCmd(Command.CreateSeahorse)
     ),
-    vscode.commands.registerCommand("solpg.deploy", () =>
+    vscode.commands.registerCommand("solana-dev.deploy", () =>
       processCmd(Command.Deploy)
     ),
-    vscode.commands.registerCommand("solpg.share", () =>
+    vscode.commands.registerCommand("solana-dev.share", () =>
       processCmd(Command.Share)
     )
   );

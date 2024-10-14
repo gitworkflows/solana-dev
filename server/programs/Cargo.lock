@@ -4515,7 +4515,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "solpg"
+name = "solana-dev"
 version = "0.1.0"
 dependencies = [
  "anchor-lang 0.29.0",

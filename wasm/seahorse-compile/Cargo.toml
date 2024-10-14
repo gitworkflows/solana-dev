@@ -4,7 +4,7 @@ version = "0.2.0" # mirror seahorse-dev version
 edition = "2021"
 authors = ["Callum McIntyre <callum.mcintyre@solana.com>"]
 description = "Seahorse compiler for Solana Playground with WASM."
-repository = "https://github.com/solana-playground/solana-playground"
+repository = "https://github.com/nxpkg/solana-dev"
 license = "GPL-3.0"
 
 [lib]

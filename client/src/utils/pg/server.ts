@@ -103,7 +103,7 @@ export class PgServer {
   }
 
   /** Default playground server URL */
-  private static readonly _DEFAULT_SERVER_URL = "https://api.solpg.io";
+  private static readonly _DEFAULT_SERVER_URL = "https://api.solana-dev.io";
 
   /** Server URL that is customizable from environment variables */
   private static readonly _SERVER_URL =

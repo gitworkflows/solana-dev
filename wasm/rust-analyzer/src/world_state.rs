@@ -117,7 +117,7 @@ impl WorldState {
     /// Load `std`, `core` and `alloc` libraries and initialize a default local crate.
     #[wasm_bindgen(js_name = loadDefaultCrates)]
     pub fn load_default_crates(&mut self, core_lib: String, alloc_lib: String, std_lib: String) {
-        const DEFAULT_NAME: &str = "solpg";
+        const DEFAULT_NAME: &str = "solana-dev";
         const CORE_FILE_ID: FileId = FileId(1);
         const ALLOC_FILE_ID: FileId = FileId(2);
         const STD_FILE_ID: FileId = FileId(3);
